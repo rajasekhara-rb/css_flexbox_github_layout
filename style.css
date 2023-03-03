@@ -1,68 +1,117 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-header{
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+header {
     display: flex;
     background-color: black;
     padding: 10px;
 }
 
-header img{
+header img {
     width: 50px;
     margin-right: 25px;
 }
 
-header h1{
+header h1 {
     color: white;
     justify-content: center;
-    
+
+
 }
 
-input{
-    width: 50vw;
+input {
+    
     justify-content: center;
     background-color: black;
+    border-radius: 5px;
+    width: 70vw;
+    height: 5vh;
+    margin: 20px;
 }
-main{
+
+main {
     display: flex;
     flex-direction: row;
-   
+
 }
-.box{
+
+.box {
 
     border: 1px solid black;
     margin: 10px;
 }
 
-#box1{
-    width: 250px;
-    height: 80vh;
+#box1 {
+    width: 25vw;
+    height: 90vh;
     background-color: black;
     border-radius: 20px;
 }
 
-#box2, #box3, #box4 {
-    width: 250px;
-    height: 250px;
+#box2,
+#box3,
+#box4 {
+    width: 20vw;
+    height: 25vh;
     background-color: black;
     border-radius: 20px;
-    margin: 25px 50px;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: content;
+    flex-shrink: 0;
+
 }
 
-#section_small{
+#section_small {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    flex-basis: content;
+    flex-shrink: 0;
+    
+
 }
 
-#sec_div{
-display: flex;
+#sec_div {
+    display: flex;
+    
 }
 
-#box5{
-    width: 70vw;
-    height: 250px;
+#box5 {
+    width: 75vw;
+    height: 50vh;
     background-color: black;
     border-radius: 20px;
+    }
+
+
+    @media (min-width: 0px) and (max-width: 500px){
+main{
+    flex-direction: column;
+
 }
+#box1{
+    width: 92vw;
+    height: 50vh;
+
+}
+
+#box5 {
+    width: 92vw;
+    height: 50vh;
+   
+    }
+    input {
+         width: 90vw;
+        height: 5vh;
+        margin: 20px;
+    }
+
+
+    }
