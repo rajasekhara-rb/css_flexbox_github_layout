@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+header img{
+    width: 50px;
+    margin-right: 25px;
+}
+
+header h1{
+    color: white;
+    justify-content: center;
+    
+}
+
+input{
+    width: 50vw;
+    justify-content: center;
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: row;
+   
+}
+.box{
+
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#box1{
+    width: 250px;
+    height: 80vh;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#box2, #box3, #box4 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 25px 50px;
+}
+
+#section_small{
+    display: flex;
+    flex-direction: column;
+}
+
+#sec_div{
+display: flex;
+}
+
+#box5{
+    width: 70vw;
+    height: 250px;
+    background-color: black;
+    border-radius: 20px;
+}
